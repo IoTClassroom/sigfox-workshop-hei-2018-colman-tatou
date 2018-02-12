@@ -70,7 +70,7 @@ void loop() {
   // 1% of 3600 sec = 36 sec
   // A Sigfox message takes 6 seconds to emit 
   // 36 sec / 6 sec = 6 messages per hours -> 1 every 10 minutes
-  delay(10*60*1000);
+  delay(60*1000);
 }
 
 void blink(){
